@@ -4550,8 +4550,11 @@ fieldset:disabled .btn {
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   white-space: nowrap;
+}
+.navbar-brand:hover{
+  color: var(--bs-green) !important;
 }
 
 .navbar-nav {
@@ -12181,11 +12184,24 @@ header.masthead .post-heading .meta a {
   font-size: 1.875rem;
   margin-top: 1.875rem;
   margin-bottom: 0.625rem;
+  text-decoration: none !important;
 }
-
+.post-title:hover{
+  color: var(--bs-green);
+}
+.post-subtitle:hover{
+  color: var(--bs-green);
+}
+.fa-stack:hover{
+  color: var(--bs-green);
+}
+.nav-link:hover{
+  color: var(--bs-orange) !important;
+}
 .post-preview>a>.post-subtitle {
   font-weight: 300;
   margin-bottom: 0.625rem;
+  text-decoration: none !important;
 }
 
 .post-preview>.post-meta {
