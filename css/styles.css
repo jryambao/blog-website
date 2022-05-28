@@ -3232,14 +3232,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #0085A1;
+  background-color: var(--bs-green);
   border-color: #0085A1;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #007189;
-  border-color: #006a81;
+  background-color: var(--bs-orange);
+  border-color: #ffffff;
 }
 
 .btn-check:focus+.btn-primary,
@@ -4554,7 +4554,7 @@ fieldset:disabled .btn {
   white-space: nowrap;
 }
 .navbar-brand:hover{
-  color: var(--bs-green) !important;
+  color: var(--bs-orange) !important;
 }
 
 .navbar-nav {
